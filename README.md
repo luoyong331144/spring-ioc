@@ -94,7 +94,7 @@ import org.springframework.stereotype.Component;
 public class UserService {
 
 	@Autowired
-	// @Qualifier("userDao")  // 如果有多个可装配的 bean ， 则必须指定 @Qualifier
+	// @Qualifier("userDao")  // Optional
 	private UserDao userDao;
 	
 	public void save() {
